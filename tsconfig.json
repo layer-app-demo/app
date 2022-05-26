@@ -12,11 +12,11 @@
       ],
 
       "@layer-app-demo/layer-2/*": [
-        "node_modules/@layer-app-demo/layer-2/*"
+        "node_modules/@layer-app-demo/layer-2/src/*"
       ],
 
       "@layer-app-demo/layer-1/*": [
-        "node_modules/@layer-app-demo/layer-1/*"
+        "node_modules/@layer-app-demo/layer-1/src/*"
       ]
     }
   },

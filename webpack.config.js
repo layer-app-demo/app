@@ -26,6 +26,11 @@ module.exports = {
 	resolve: {
 		extensions: ['.ts', '.js', '.json'],
 
+		alias: {
+			'@layer-app-demo/layer-1': path.resolve('node_modules/@layer-app-demo/layer-1/src'),
+			'@layer-app-demo/layer-2': path.resolve('node_modules/@layer-app-demo/layer-2/src')
+		},
+
 		modules: [
 			path.resolve('src'),
 			path.resolve('node_modules/@layer-app-demo/layer-2/src'),
